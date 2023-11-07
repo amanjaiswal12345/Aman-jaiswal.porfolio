@@ -1,7 +1,7 @@
 
 import Ecommerce from './../images/project/Ecommerce.png'
 import Clone from './../images/project/Clone.jpeg'
-import MyResturant from './../images/project/Myresturant.jpeg'
+import MyResturant from './../images/project/MyResturant.jpeg'
 // import HeroImg from "./images/e-commerce image.png"
 
 export const Bio = {
