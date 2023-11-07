@@ -1,6 +1,7 @@
 
 import Ecommerce from './../images/project/Ecommerce.png'
 import Clone from './../images/project/Clone.jpeg'
+import MyResturant from './../images/project/Myresturant.jpeg'
 // import HeroImg from "./images/e-commerce image.png"
 
 export const Bio = {
@@ -232,7 +233,26 @@ export const projects = [
     webapp: "https://totalitycorp-iota.vercel.app/",
   },
 
+   {
+    id: 2,
+    title: "My Resturant web app",
+    date: "Octomber 2023-November 2023 ",
+    description:
+      "Designed and developed a Resturant web app with full functionality.",
+    image: MyResturant,
+    tags: [
+      "Html",
+      "CSS",
+      "Material UI",
+      "React.js",
+      "Javascript"
 
+  
+    ],
+    category: "web app",
+    github: "https://github.com/amanjaiswal12345/Resturant-Website.git",
+    webapp: "https://resturant-website-theta.vercel.app/",
+  },
   
 ];
 
