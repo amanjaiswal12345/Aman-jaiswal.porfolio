@@ -157,10 +157,14 @@ const Contact = () => {
         <Snackbar
           open={open}
           autoHideDuration={6000}
-          onClose={()=>setOpen(false)}
-          message="Email sent successfully!"
-          severity="success"
-        />
+          onClose={() => setOpen(false)}
+          anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
+        >
+  <Alert onClose={() => setOpen(false)} severity="success" sx={{ width: '100%' }}>
+    Email sent successfully!
+  </Alert>
+</Snackbar>
+
       </Wrapper>
     </Container>
   )
